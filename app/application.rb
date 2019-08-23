@@ -30,6 +30,8 @@ class Application
     
     resp.finish
   end 
-   return "Couldn't find #{search_term}"	      
+  
+   return "Couldn't find #{search_term}"	 
+ end
   end
 end
