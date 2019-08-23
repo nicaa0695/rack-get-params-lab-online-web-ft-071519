@@ -7,4 +7,5 @@ class Application
     resp = Rack::Response.new
     
     elsif req.path.match(/search/)
+    
 end
