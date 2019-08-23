@@ -7,5 +7,5 @@ class Application
     resp = Rack::Response.new
     
     elsif req.path.match(/search/)
-    
+    search_term = req.params["q"]
 end
